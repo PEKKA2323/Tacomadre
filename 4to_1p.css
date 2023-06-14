@@ -1,0 +1,67 @@
+a{
+  color: turquoise;
+}
+footer{
+  background: rgb(0, 0, 0); 
+}
+header{
+    height: 200vh;
+  }
+  .container{
+    clip: rect(0, auto, auto, 0);
+    overflow: hidden;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    width: 100%;
+  }
+  .container_solid{
+    background: rgb(0, 0, 0);
+    top: 0;
+  }
+  .title_wrapper{
+    position: fixed;
+    display: block;
+    margin: auto;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .title_wrapper h1{
+    text-align: center;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+  }
+  .container_solid .title_wrapper h1{
+    background: url(https://ca-times.brightspotcdn.com/dims4/default/865d272/2147483647/strip/true/crop/1140x1500+0+0/resize/1200x1579!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2Fd3%2Fab6da853405b956a499f9ce345b2%2Fchurros-llenos-de-sabor-1496885.JPG);
+    background-size: 100vw auto;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: black;
+  }
+  .container_image{
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/865d272/2147483647/strip/true/crop/1140x1500+0+0/resize/1200x1579!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2Fd3%2Fab6da853405b956a499f9ce345b2%2Fchurros-llenos-de-sabor-1496885.JPG);
+    background-size: 100vw auto;
+    background-position: center;
+    background-attachment: fixed;
+    top: 100vh;
+  }
+  .container_image .title_wrapper h1{
+    color: rgb(255, 255, 255);
+  }
+  section{
+    min-height: 100vh;
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+  }
+  section h2{
+    font-family: 'Fraunces', serif;
+  }
